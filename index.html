@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Endereço</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="card-tarefas">
+        <h2 class="card-title">Consulta de Endereço</h2>
+
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" placeholder="00000-000" maxlength="9">
+
+        <p id="mensagem"></p>
+
+        <label for="logradouro">Rua / Logradouro</label>
+        <input type="text" id="logradouro" readonly>
+
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" readonly>
+
+        <label for="localidade">Cidade</label>
+        <input type="text" id="localidade" readonly>
+
+        <label for="uf">Estado (UF)</label>
+        <input type="text" id="uf" readonly>
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+</html>
